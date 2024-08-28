@@ -1,5 +1,5 @@
 // bubble sort the array of numbers or char
-// Time complexity:- o(n2)
+// Time complexity:- O(n2)
 // Space complexity:- O(1)
 
 const swap = (arr, i, j) => {
