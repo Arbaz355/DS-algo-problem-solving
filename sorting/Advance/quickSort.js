@@ -1,4 +1,4 @@
-// bubble sort the array of numbers or char
+// quick sort the array of numbers or char
 // Time complexity:- Best :- Ω (N log (N)  average case:- θ ( N log (N)) worst case:- O(N ^ 2)
 // Space complexity:- Best case:-  O(1) worst case:- O ( N )
 
@@ -27,6 +27,5 @@ const quickSort = (arr) => {
 
 // driver code to run the function
 const numbers = [4, 6, 8, 3, 1];
-const arrayLength = numbers.length;
 const sortedArray = quickSort(numbers);
 console.log(sortedArray);
